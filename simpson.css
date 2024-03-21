@@ -1,0 +1,95 @@
+*{
+    background-color: rgb(247, 250, 249);
+}
+
+#characters-container{
+    background-color: rgb(67, 224, 224);
+}
+
+.character-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.character-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.quote-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: #fa8805;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quote-btn:hover {
+    background-color: #fdcc06;
+}
+
+.quote {
+    margin-top: 10px;
+    color: #333;
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    background-color: white;
+}
+
+#search-input{
+    height: 30px;
+    width: 200px;
+    margin-top: 7px;
+    border-radius: 10px;
+    font-size: large;
+    text-align: center;
+    flex-grow: 1;
+    background-color: rgb(223, 221, 221);
+}
+
+#search-button{
+    border-radius: 20px;
+    margin-right: 10px;
+    height: 30px;
+    width: 70px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    background-color: #fdcc06;
+}
+
+#search-button:hover{
+    cursor: pointer;
+    background-color: #cfa914;
+}
+
+#header {
+    margin-top: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fdcc06;
+    font-size: xx-large;
+}
